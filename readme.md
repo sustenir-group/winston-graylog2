@@ -1,8 +1,6 @@
-[![Build Status](https://secure.travis-ci.org/namshi/winston-graylog2.png)](http://travis-ci.org/namshi/winston-graylog2)
-
 # winston-graylog2 
 
-A [graylog2][0] transport for [winston][1] based on the [node-graylog2][2] Library
+A [graylog2][0] transport for [winston][1] based on the [node-graylog2][2] Library. This is a fork of the [winston-graylog2][3] repository.
 
 ## Installation
 
@@ -15,7 +13,7 @@ compatible with `^winston-graylog2@1.1.0`.
 
 ``` sh
 $ npm install winston
-$ npm install winston-graylog2
+$ npm install @sustenir-group/winston-graylog2
 ```
 
 ## Usage
@@ -149,3 +147,4 @@ debug          | debug
 [0]: http://www.graylog2.org
 [1]: https://github.com/flatiron/winston
 [2]: https://github.com/Wizcorp/node-graylog2
+[3]: https://github.com/namshi/winston-graylog2
